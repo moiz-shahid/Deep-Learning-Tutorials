@@ -19,17 +19,22 @@ This tutorial covers the basic implementation and working of a Perceptron, inclu
 - Manual input and prediction
 - Sigmoid activation function
 
+### Tutorial 02 - MLP Classifier
+
+Implementation and analysis of a Multi-Layer Perceptron classifier using the Iris dataset, including experiments with different network architectures and learning rates.
 More tutorials will be added throughout the course.
 
 ## Repository Structure
 
 ```text
-Deep-Learning-Tutorials/
+Deep-Learning-Tutorials
 │
-├── Tutorial-01-Perceptron/
+├── Tutorial-01-Perceptron
 │   ├── Perceptron.py
 │   └── README.md
 │
-├── Tutorial-02/
+├── Tutorial-02-MLP
+│   ├── DL_Tutorial_2.ipynb
+│   └── README.md
 │
-└── ...
+└── README.md
