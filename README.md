@@ -29,6 +29,10 @@ Implementation and evaluation of an Artificial Neural Network for MNIST handwrit
 
 More tutorials will be added throughout the course.
 
+### Tutorial 04 - Data Augmentation using PyTorch
+
+Implementation of image data augmentation using PyTorch and torchvision. A single JPEG image is transformed using rotation, shear, zoom, horizontal flipping, and brightness adjustment to generate 40 augmented images.
+
 ## Repository Structure
 
 ```text
@@ -44,6 +48,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-03-ANN-MNIST/
 │   ├── DL_Tutorial_3.ipynb
+│   └── README.md
+│
+├── Tutorial-04-Data-Augmentation/
+│   ├── DL_Tutorial_4.ipynb
 │   └── README.md
 │
 └── README.md
