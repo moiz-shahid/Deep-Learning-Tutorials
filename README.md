@@ -41,6 +41,14 @@ Experiments include kernel size comparison, convolutional layers and filters, fu
 
 The improved CNN achieved **80.31% test accuracy**.
 
+### Tutorial 06 — Transfer Learning using PyTorch
+
+Implementation of image classification using pretrained VGG16, ResNet50, AlexNet, ResNet101, and MobileNetV2 models.
+
+The tutorial includes top-five ImageNet predictions and a transfer-learning experiment using pretrained ResNet18 on the MNIST dataset.
+
+The transfer-learning model achieved **92.30% test accuracy** after five epochs.
+
 ## Repository Structure
 
 ```text
@@ -64,6 +72,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-05-CNN/
 │   ├── DL_Tutorial_5.ipynb
+│   └── README.md
+│
+├── Tutorial-06-Transfer-Learning/
+│   ├── DL_Tutorial_6.ipynb
 │   └── README.md
 │
 └── README.md
