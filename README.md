@@ -49,6 +49,14 @@ The tutorial includes top-five ImageNet predictions and a transfer-learning expe
 
 The transfer-learning model achieved **92.30% test accuracy** after five epochs.
 
+### Tutorial 07 — Feature Extraction vs. Fine-Tuning using PyTorch
+
+Comparison of feature extraction and fine-tuning using pretrained VGG16 and ResNet50 models on the Hymenoptera ants-versus-bees dataset.
+
+The tutorial also includes a custom CNN trained from scratch and experiments with improving fine-tuning through learning-rate adjustment, Dropout, weight decay, and Early Stopping.
+
+The highest validation accuracy achieved was **96.73%** using improved ResNet50 fine-tuning.
+
 ## Repository Structure
 
 ```text
@@ -76,6 +84,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-06-Transfer-Learning/
 │   ├── DL_Tutorial_6.ipynb
+│   └── README.md
+│
+├── Tutorial-07-Feature-Extraction-Fine-Tuning/
+│   ├── DL_Tutorial_7.ipynb
 │   └── README.md
 │
 └── README.md
