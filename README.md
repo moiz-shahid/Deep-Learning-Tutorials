@@ -33,6 +33,14 @@ More tutorials will be added throughout the course.
 
 Implementation of image data augmentation using PyTorch and torchvision. A single JPEG image is transformed using rotation, shear, zoom, horizontal flipping, and brightness adjustment to generate 40 augmented images.
 
+### Tutorial 05 — Convolutional Neural Network (CNN) using PyTorch
+
+Implementation and evaluation of CNN architectures for CIFAR-10 image classification using PyTorch.
+
+Experiments include kernel size comparison, convolutional layers and filters, fully connected architectures, model accuracy improvement, and overfitting reduction using data augmentation and regularization.
+
+The improved CNN achieved **80.31% test accuracy**.
+
 ## Repository Structure
 
 ```text
@@ -52,6 +60,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-04-Data-Augmentation/
 │   ├── DL_Tutorial_4.ipynb
+│   └── README.md
+│
+├── Tutorial-05-CNN/
+│   ├── DL_Tutorial_5.ipynb
 │   └── README.md
 │
 └── README.md
