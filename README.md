@@ -97,6 +97,14 @@ Experiments include semantic segmentation using DeepLabV3, instance segmentation
 
 DeepLabV3-ResNet101 achieved the highest segmentation performance with **86.54% test Dice** and **80.18% test IoU**, outperforming Mask R-CNN on the evaluated dataset.
 
+### Tutorial 12 — Basic Autoencoders using PyTorch
+
+Implementation and evaluation of convolutional autoencoders for MNIST handwritten digit reconstruction using PyTorch.
+
+Experiments include building a basic encoder-decoder architecture, training for 50 epochs, visualizing reconstructed images, and improving the architecture using additional convolutional layers, Batch Normalization, and transposed convolutions.
+
+The improved autoencoder achieved **0.059357 test BCE loss** and **0.000296 test MSE**, reducing reconstruction errors by **4.41%** and **67.55%**, respectively, compared with the original model.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -150,6 +158,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-11-DeepLabV3-Mask-RCNN-Segmentation/
 │   ├── DL_Tutorial_11.ipynb
+│   └── README.md
+│
+├── Tutorial-12-Basic-Autoencoders/
+│   ├── DL_Tutorial_12.ipynb
 │   └── README.md
 │
 └── README.md
