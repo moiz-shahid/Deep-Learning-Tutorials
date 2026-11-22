@@ -73,6 +73,14 @@ Experiments include testing object detection on a custom image, comparing ResNet
 
 ResNet50-FPN V2 achieved the highest detection performance with **97.99% mAP@0.5** and **87.45% mAP@0.5:0.95**, while MobileNetV3-FPN achieved the fastest inference time.
 
+### Tutorial 09 — Object Detection using SSD and YOLO (PyTorch)
+
+Implementation and evaluation of custom and pretrained SSD and YOLO object detection models using PyTorch.
+
+Experiments include constructing SSD and YOLO architectures from scratch, training both models on a 150-image bottle dataset, and fine-tuning pretrained SSD300-VGG16 and YOLOv8 Nano models.
+
+The pretrained YOLOv8 Nano achieved the highest detection performance with **94.79% test mAP@0.5** and **85.89% test mAP@0.5:0.95**, outperforming the custom models and pretrained SSD.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -114,6 +122,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-08A-Pretrained-Faster-RCNN/
 │   ├── DL_Tutorial_8A.ipynb
+│   └── README.md
+│
+├── Tutorial-09-SSD-YOLO-Object-Detection/
+│   ├── DL_Tutorial_9.ipynb
 │   └── README.md
 │
 └── README.md
