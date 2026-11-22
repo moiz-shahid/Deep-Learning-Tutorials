@@ -81,6 +81,14 @@ Experiments include constructing SSD and YOLO architectures from scratch, traini
 
 The pretrained YOLOv8 Nano achieved the highest detection performance with **94.79% test mAP@0.5** and **85.89% test mAP@0.5:0.95**, outperforming the custom models and pretrained SSD.
 
+### Tutorial 10 — Image Segmentation using U-Net (PyTorch)
+
+Implementation and evaluation of a custom U-Net architecture for binary image segmentation using PyTorch.
+
+Experiments include training U-Net on synthetic images and the Oxford-IIIT Pet dataset, comparing original and deeper U-Net architectures, and analyzing the effect of different learning rates on segmentation performance.
+
+The deeper U-Net achieved **70.03% validation Dice** and **54.63% validation IoU** in the architecture comparison. The final selected model achieved **64.71% test Dice** and **50.15% test IoU** using a learning rate of 0.0001.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -126,6 +134,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-09-SSD-YOLO-Object-Detection/
 │   ├── DL_Tutorial_9.ipynb
+│   └── README.md
+│
+├── Tutorial-10-UNet-Image-Segmentation/
+│   ├── DL_Tutorial_10.ipynb
 │   └── README.md
 │
 └── README.md
