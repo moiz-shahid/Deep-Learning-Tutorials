@@ -105,6 +105,14 @@ Experiments include building a basic encoder-decoder architecture, training for 
 
 The improved autoencoder achieved **0.059357 test BCE loss** and **0.000296 test MSE**, reducing reconstruction errors by **4.41%** and **67.55%**, respectively, compared with the original model.
 
+### Tutorial 13 — Denoising Autoencoders using PyTorch
+
+Implementation and evaluation of denoising autoencoders for reconstructing clean MNIST handwritten digits from images corrupted with Gaussian noise using PyTorch.
+
+Experiments include implementing a basic denoising autoencoder, developing a deeper architecture using additional convolutional layers and Batch Normalization, and implementing a Variational Autoencoder (VAE) with reparameterization, KL-divergence loss, and latent-space image generation.
+
+The deep denoising autoencoder achieved the best reconstruction performance with **0.088734 test BCE loss** and **0.008836 test MSE**, reducing reconstruction errors by **7.49%** and **19.89%**, respectively, compared with the basic model.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -162,6 +170,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-12-Basic-Autoencoders/
 │   ├── DL_Tutorial_12.ipynb
+│   └── README.md
+│
+├── Tutorial-13-Denoising-Autoencoders/
+│   ├── DL_Tutorial_13.ipynb
 │   └── README.md
 │
 └── README.md
