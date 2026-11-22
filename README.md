@@ -89,6 +89,14 @@ Experiments include training U-Net on synthetic images and the Oxford-IIIT Pet d
 
 The deeper U-Net achieved **70.03% validation Dice** and **54.63% validation IoU** in the architecture comparison. The final selected model achieved **64.71% test Dice** and **50.15% test IoU** using a learning rate of 0.0001.
 
+### Tutorial 11 — Semantic Segmentation using DeepLabV3 and Mask R-CNN (PyTorch)
+
+Implementation and evaluation of pretrained DeepLabV3-ResNet101 and Mask R-CNN ResNet50-FPN models using PyTorch and Torchvision.
+
+Experiments include semantic segmentation using DeepLabV3, instance segmentation using Mask R-CNN, visualization of segmentation masks, and performance comparison on the Oxford-IIIT Pet dataset using pixel accuracy, Dice, and IoU.
+
+DeepLabV3-ResNet101 achieved the highest segmentation performance with **86.54% test Dice** and **80.18% test IoU**, outperforming Mask R-CNN on the evaluated dataset.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -138,6 +146,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-10-UNet-Image-Segmentation/
 │   ├── DL_Tutorial_10.ipynb
+│   └── README.md
+│
+├── Tutorial-11-DeepLabV3-Mask-RCNN-Segmentation/
+│   ├── DL_Tutorial_11.ipynb
 │   └── README.md
 │
 └── README.md
