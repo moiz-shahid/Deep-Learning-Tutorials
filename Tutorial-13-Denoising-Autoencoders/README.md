@@ -86,16 +86,3 @@ The basic denoising autoencoder, deeper denoising autoencoder, and variational a
 
 The **deep denoising autoencoder** achieved the best reconstruction performance, with **0.088734 test BCE** and **0.008836 test MSE**. The VAE demonstrated latent-space sampling and image generation, illustrating the difference between conventional denoising autoencoders and generative probabilistic models.
 
-## Technologies Used
-
-- Python
-- PyTorch and Torchvision
-- NumPy and Pandas
-- Matplotlib
-- Google Colab
-
-## Author
-
-**Moiz Shahid**
-
-GitHub: [@moiz-shahid](https://github.com/moiz-shahid)
