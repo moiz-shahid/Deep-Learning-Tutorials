@@ -82,18 +82,3 @@ The learning rate of **0.0001** was selected using the lowest-validation-loss cr
 ## Conclusion
 
 The U-Net achieved near-perfect segmentation on simple synthetic rectangles but lower performance on real pet images. Increasing encoder-decoder depth improved validation Dice and IoU under the tested conditions. Learning rate influenced convergence and predicted mask quality; 0.0001 gave the lowest validation loss, while 0.001 achieved slightly higher validation overlap scores.
-
-## Technologies Used
-
-- Python
-- PyTorch and Torchvision
-- NumPy and Pandas
-- OpenCV
-- Matplotlib
-- Google Colab
-
-## Author
-
-**Moiz Shahid**
-
-GitHub: [@moiz-shahid](https://github.com/moiz-shahid)
