@@ -61,17 +61,4 @@ Both pretrained models outperformed the simplified custom architectures on the h
 
 The comparison illustrates the value of pretrained detection models on small datasets. The custom models used simplified loss and matching implementations, so the results should not be interpreted as a general comparison of SSD and YOLO.
 
-## Technologies Used
 
-- Python
-- PyTorch and Torchvision
-- Ultralytics YOLO
-- NumPy and Pandas
-- Matplotlib
-- Google Colab
-
-## Author
-
-**Moiz Shahid**
-
-GitHub: [@moiz-shahid](https://github.com/moiz-shahid)
