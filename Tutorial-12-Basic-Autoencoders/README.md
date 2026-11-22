@@ -63,13 +63,6 @@ Although the models reduce the spatial dimensions of the image, their latent ten
 
 The custom autoencoder and model-improvement assignment were successfully completed in PyTorch. The improved convolutional architecture achieved the best reconstruction performance, with **0.059357 test BCE** and **0.000296 test MSE** on MNIST.
 
-## Technologies Used
-
-- Python
-- PyTorch and Torchvision
-- NumPy and Pandas
-- Matplotlib
-- Google Colab
 
 ## Author
 
