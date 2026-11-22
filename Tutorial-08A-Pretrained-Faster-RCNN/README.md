@@ -57,17 +57,4 @@ All three pretrained Faster R-CNN models performed well on the bottle dataset. R
 
 The results illustrate the trade-off between detection performance and computational efficiency. These metrics describe performance on this particular public dataset; possible overlap with the original pretraining data was not assessed.
 
-## Technologies Used
 
-- Python
-- PyTorch and torchvision
-- TorchMetrics
-- NumPy and Pandas
-- Matplotlib
-- Google Colab
-
-## Author
-
-**Moiz Shahid**
-
-GitHub: [@moiz-shahid](https://github.com/moiz-shahid)
