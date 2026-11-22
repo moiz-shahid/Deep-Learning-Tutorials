@@ -65,6 +65,14 @@ Experiments include comparing different numbers of convolutional layers, testing
 
 The final model achieved **79.21% test mAP@0.5** and **35.70% test mAP@0.5:0.95**.
 
+### Tutorial 08-A — Object Detection using Pretrained Faster R-CNN (PyTorch)
+
+Implementation and evaluation of pretrained Faster R-CNN object detection models using PyTorch and Torchvision.
+
+Experiments include testing object detection on a custom image, comparing ResNet50-FPN, MobileNetV3-FPN, and ResNet50-FPN V2 models, and evaluating detection performance on a 150-image bottle dataset using mAP.
+
+ResNet50-FPN V2 achieved the highest detection performance with **97.99% mAP@0.5** and **87.45% mAP@0.5:0.95**, while MobileNetV3-FPN achieved the fastest inference time.
+
 More tutorials will be added throughout the course.
 
 ## Repository Structure
@@ -102,6 +110,10 @@ Deep-Learning-Tutorials/
 │
 ├── Tutorial-08-Faster-RCNN-Object-Detection/
 │   ├── DL_Tutorial_8.ipynb
+│   └── README.md
+│
+├── Tutorial-08A-Pretrained-Faster-RCNN/
+│   ├── DL_Tutorial_8A.ipynb
 │   └── README.md
 │
 └── README.md
